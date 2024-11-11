@@ -2,6 +2,11 @@
 # https://learn.adafruit.com/adafruit-pcf8523-real-time-clock/rtc-with-circuitpython
 # for use in the OCNG659 class
 
+# YOU WILL NEED TO COPY:
+# the adafruit_pcf8523 folder to your Feather board
+# this may also require copying the adafruit_register folder
+# to your feather board as well
+
 import busio
 from adafruit_pcf8523 import pcf8523
 import time
